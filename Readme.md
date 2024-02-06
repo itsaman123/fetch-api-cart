@@ -24,6 +24,8 @@ Navigate to the project directory:
  **JavaScript**: Fetching data from the API and handling interactions.<br>
  **Font Awesome**: Used for displaying category icons.<br>
 
+ # Demo : https://ecommerce-cart-api.netlify.app/
+
 #### Here is the snapshot of the webpage
 
  <img width="959" alt="image" src="https://github.com/itsaman123/fetch-api-cart/assets/84653396/7f926531-1e5e-4f27-9c75-7a45b8878da7">
