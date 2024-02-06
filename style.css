@@ -1,0 +1,137 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tabs {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.tab {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.product-card {
+  width: 300px;
+  margin: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.product-image-container {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.product-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.badge {
+  background-color: #fff;
+  color: #000;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+  font-family: 'Inter', sans-serif;
+}
+
+.product-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-family: 'Inter', sans-serif;
+}
+
+.vendor {
+  color: #555;
+}
+
+.price-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.compare-price {
+  color: #757575;
+  text-decoration: line-through;
+}
+
+.discount {
+  color: #f44336;
+  font-weight: bold;
+}
+
+.add-to-cart-button {
+  background-color: #000;
+  color: #fff;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .tabs {
+      flex-direction: column;
+  }
+
+  .tab {
+      margin-bottom: 10px;
+  }
+}
+
+.heading{
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+}
