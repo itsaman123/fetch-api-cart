@@ -23,3 +23,7 @@ Navigate to the project directory:
  **CSS**: Styling for the web page.
  **JavaScript**: Fetching data from the API and handling interactions.
  **Font Awesome**: Used for displaying category icons.
+
+#### Here is the snapshot of the webpage
+
+ <img width="959" alt="image" src="https://github.com/itsaman123/fetch-api-cart/assets/84653396/7f926531-1e5e-4f27-9c75-7a45b8878da7">
