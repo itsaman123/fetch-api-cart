@@ -19,10 +19,10 @@ Navigate to the project directory:
 ##### Open the index.html file in your preferred web browser.
 
 #### Technologies Used
- **HTML**: The structure of the web page.
- **CSS**: Styling for the web page.
- **JavaScript**: Fetching data from the API and handling interactions.
- **Font Awesome**: Used for displaying category icons.
+ **HTML**: The structure of the web page. <br>
+ **CSS**: Styling for the web page.<br>
+ **JavaScript**: Fetching data from the API and handling interactions.<br>
+ **Font Awesome**: Used for displaying category icons.<br>
 
 #### Here is the snapshot of the webpage
 
